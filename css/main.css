@@ -1,0 +1,116 @@
+/*
+	Landing Page Name     : Aidaset
+	Landing Page Designer : Soufian Lakhdar
+	Landing Page Coder    : Soufian Lakhdar
+	Main Color : #E11E3E;
+	gradient Color : #FC6767;
+	Body Text : #808182;
+	Link Text : #A8A8A8;
+	Dark : #1B1C1D;
+	Mid : #26282B;
+	Light : #2F3136;
+	Heading  : #6A6A6A
+*/
+
+html{
+	font-family: "Roboto"
+}
+p{
+	color: #808182 !important;
+}
+body{
+	background-color: #1B1C1D !important;
+	color: #fff;
+}
+a{
+	color:#A8A8A8 !important;
+}
+h1{
+	color: #6A6A6A !important;
+}
+
+/* Start Navbar */
+.navlogospace{
+	padding-right: 140px;
+}
+.body-page{
+	margin-top: 5%;
+}
+/* End Navbar */
+/* Start Body */
+@media only screen and (min-width: 992px){
+	.body-page .spaceguide{
+	padding-left: 220px;
+	}
+}
+.body-page .body-p{
+	width: 55%;
+	margin-top: 5%;
+}
+.body-page .body-s{
+	color:#E11E3E;
+	text-transform: uppercase;
+	margin-top: 5%;
+	font-weight: 600;
+}
+
+.body-page .btn-buy{
+	margin-top: 10%;
+	color: #fff !important;
+	border-radius: 25px;
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	width: 210px;
+	font-size: 20px;
+	line-height: 60px;
+	background: linear-gradient(to right, #FC6767 0%, #E11E3E 100%);
+	background: -webkit-linear-gradient(to right, #FC6767 0%, #E11E3E 100%);
+	background: -moz-linear-gradient(to right, #FC6767 0%, #E11E3E 100%);
+	overflow: hidden;
+	text-decoration: none;
+
+}
+.body-page .btn-buy .fa-arrow-right{
+	margin-left: 65px;
+}
+.body-page .btn-buy span{
+	padding-left: 10%;
+	font-weight: 600;
+}
+.follow{
+	margin-top: 20%
+}
+/* Start Vertical SLiide */
+.carousel-indicators{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+	height: 20px;
+	right: 20px;
+	left: auto;
+	width: auto;
+	transform: rotate(90deg);
+}
+
+.carousel-indicators li{
+	display: block;
+	margin-bottom: 5px;
+	border: 1px solid white;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+.aidab{
+	position: absolute;
+	background: linear-gradient(to right, #FC6767 0%, #E11E3E 100%);
+	background: -webkit-linear-gradient(to right, #FC6767 0%, #E11E3E 100%);
+	background: -moz-linear-gradient(to right, #FC6767 0%, #E11E3E 100%);
+	width: 80%;
+	height: 100%;
+	left: 20%;
+}
+/* End Vertical SLiide */
+
+/* ENd Body */
